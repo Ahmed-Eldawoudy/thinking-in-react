@@ -8,7 +8,7 @@ function FilterableProductTable({ products }) {
   const [inStockOnly, setOnStockOnly] = useState(false);
   return (
     <>
-      <div className="flex min-h-screen min-w-full items-center justify-center">
+      <div className="flex min-h-screen min-w-full items-center justify-center bg-slate-300">
         <div className="w-80 space-y-4 rounded-lg bg-slate-400 p-8">
           <SearchBar
             filterText={filterText}
